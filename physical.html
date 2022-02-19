@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="physical.css">
+</head>
+<body>
+    <nav>
+        <h1>
+            <img src="Title.png" alt="Title" height="10%" width="12%" style="float:left; padding-bottom: 10px;">WELCOME (patient name)!
+        <br><br><br>
+        </h1>
+        <h2 style="float:right">Unique ID: (id of patient)</h2>
+    </nav>
+    <br>
+    <hr>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#Records">Records</a>
+        <a href="#Medicines">Medicine</a>
+        <a href="#Calendar">Calendar</a>
+        <a href="#Assistant">Assistant</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <script src="physical.js"></script>
+    <div id="home" style="color:darkblue;text-shadow:2px 2px pink">
+        <img src="docpic.jpg"
+        height="7%" width="35%" id="docpic">
+        <h1 id="STAY">STAY STRONG, LIVE LONG</h1>
+        <br>
+        <h2>TAKE CARE OF YOUR BODY, IT WILL TAKE CARE OF YOU.</h2>
+        <p>Keeping physically active is key to a healthy lifestyle.Remember, you (and every other patient) are unique and deserve a personalized evaluation. So instead of surfing the web for a generic, or even worse, incorrect answer, talk to a doctor in person to get the full picture.
+      <br><br>
+      Positive physical health habits can help decrease your stress, lower your risk of disease, and increase your energyWhile things have definitely changed, we are proud to say that we have made every effort to keep your experience at HealthCare as normal as possible. Our counsellor is here 24x7 to welcome you and guide you through.<br><br>
+     So go ahead and book an appointments.You are just one click away. We will see you there.
+        </p>
+    </div>
+    <br><br>
+    <div id="Records">
+        <h1>RECORDS</h1>
+        <p>In this section,you can upload all your medical history reports.
+            In case you misplace or lose your documents,you can easily check in here.
+            You can relax as your data is completely secure.
+            Your records are important to us:-</p>
+          <ul>
+             <li>You can just go through all your past records with just one click!</li>
+             <li>You can even update and modify your data stored here.</li> 
+          </ul>
+          <button id="add-record">Add Records</button>
+          <button id="check-record">Check Records</button>
+    </div>
+    <div id="Medicines">
+        <h1>MEDICINES</h1>
+        <p>In this section, you can add all the medicines you require and their dosage per day. This site help you order all your medicines.</p>
+        <ul>
+            <li>You can check your past ordered medicines.</li>
+            <li>You can add new medicines added in your routine.</li>
+            <li>You can check your upcoming orders of medicines.</li> 
+         </ul>
+         <button id="past-medicines">Past Orders</button>
+         <button id="add-medicines"><a href="medicines.html"style="text-decoration:none">Add Medicines.</a></button>
+         <button id="upcoming-medicines">Upcoming Orders</button>
+    </div>
+<div id="Calendar">
+ <h1>CALENDAR</h1>
+ <p>Being out in hustle and bustle of everyday life, it's often that we forget to take our medicines on time but don't worry , Health Care never forgets to  take care of your health</p>
+ <ul>
+    <li>It sends you notification to take your medicine on time.</li>
+    <li>It reminds you of your meetings/appointments with doctor.</li>
+ </ul>
+  <p>Click here to check your Calendar</p>
+  <button id="gcalnedar">Click Here</button>
+</div>
+<div id="Assistant">
+    <h1>ASSISTANTS</h1>
+    <p>We have following doctors available:-</p>
+    <ul id="doctlist">
+        <li>
+            <a href="#"><img src="girldoc.jpg" alt="alter">
+            </a>
+            <h3>Dr.Simran Verma<br> Specialist Cardiologist</h3>
+            <h4>Email: vermasimran78606@gmail.com <br> Contact: 8318114883</h4>
+        </li>
+        <li>
+            <a href="#"><img src="girldoc.jpg" alt="alter">
+            </a>
+            <h3>Dr.Mitali Garg<br> Consultant Anasthesiologist</h3>
+            <h4>Email: mitaligarg@gmail.com <br> Contact: 9428114883</h4>
+        </li>
+        <li>
+            <a href="#"><img src="boydoct.jpg" alt="alter"width="600px" height="512px">
+            </a>
+            <h3>Dr.Jay Singh<br> Specialist Orthodentist</h3>
+            <h4>Email: jaysingh78606@gmail.com <br> Contact: 8218554883</h4>
+        </li>
+        <li>
+            <a href="#"><img src="boydoct.jpg" alt="alter"width="600px" height="512px">
+            </a>
+            <h3>Dr.Devesh Parida<br> Clinical Dietitian</h3>
+            <h4>Email: deveshp@gmail.com <br> Contact: 7818117683</h4>
+        </li>
+        <li>
+            <a href="#"><img src="girldoc.jpg" alt="alter">
+            </a>
+            <h3>Dr.Isha Giri<br> Specialist Emergency Medicine</h3>
+            <h4>Email: ishagiri6@gmail.com <br> Contact: 98324124883</h4>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+
+   
+</body>
+</html>

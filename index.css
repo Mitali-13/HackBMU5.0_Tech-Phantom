@@ -13,9 +13,9 @@ body{
     border-radius: 20px;
     border-color: darkblue;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 12%;
+    width:fit-content;
     display: inline;
-    font-size: large;
+    font-size: medium;
     text-decoration:none;
 }
 
@@ -111,4 +111,24 @@ hr{
 
 .Social{
     margin: 3px;
+}
+
+#physicalnav-btn,#mentalnav-btn{
+    float:right;
+    color: darkblue;
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: darkblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:fit-content;
+    display: inline;
+    font-size:medium;
+    text-decoration:none;
+} 
+
+#physicalnav-btn:hover,#mentalnav-btn:hover{
+    background-color: lightpink;
+    text-decoration:none;
 }

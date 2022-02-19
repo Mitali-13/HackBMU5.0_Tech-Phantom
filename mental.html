@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health</title>
+    <link rel="stylesheet" href="mental.css">
+</head>
+<body>
+    <nav>
+        <a href="#" id="title"><img src="Title.png" alt="Title" height="10%" width="12%" style="float:left;padding-bottom:10px"></a>
+        <h1>Mental Well-Being</h1>
+    </nav>
+    <hr>
+    <!--1.why is it important 2.taboos 3.problems it can create 4.how we help 5.stress busters-->
+    <div id="intro">
+        <img src="m1.png" alt="pic" style="float:right;border-radius: 20%;"
+        height="15%" width="35%">
+        <h1>Why is Mental Health important?</h1>
+        <h3>A healthy mind leads to a healthy you.</h3>
+        <p>Mental health includes our emotional, psychological, and social well-being. It affects how we
+           think, feel, and act as we cope with life. It also helps determine how we handle stress, 
+           relate to others, and make choices. Mental health is important at every stage of life,
+           from childhood and adolescence through adulthood and aging.</p>
+        <p>Mental health is important because it can help you to:
+            <ul>
+                <li>Cope with the stresses of life</li>
+                <li>Be physically healthy</li>
+                <li>Have good relationships</li>
+                <li>Make meaningful contributions to your community</li>
+                <li>Work productively</li>
+                <li>Realize your full potential</li>
+            </ul>
+        </p>
+    </div>
+    <div id="myths">
+        <img src="myth.webp" alt="pic" style="float:left;border-radius: 20%;margin-right: 5px; padding-right: 5%;"
+        height="15%" width="35%">
+        <h1>Busting some myths!</h1>
+        <p>
+            <ul>
+                <li>Mental issues are considered to be symptoms of weakness. However, that's not the case.
+                    The person needs some extra love, care and support!
+                </li><br>
+                <li>People with Mental Illnesses Are Violent. In fact, people with severe mental illnesses are over 10 times more likely to be victims of violent crime than the general population. </li>
+                <br>
+                <li>Children don't experience mental health problems but the fact is that even very young children may show early warning signs of mental health concerns.</li>
+            </ul>
+        </p>
+
+    </div>
+    <div id="problems">
+        <img src="problem.jfif" alt="pic" style="float:right;border-radius: 20%;"
+        height="15%" width="35%">
+        <h1>What if not treated?</h1>
+    <p>
+        Mental illness is a leading cause of disability. Untreated mental illness can cause severe emotional, behavioral and physical health problems. Complications sometimes linked to mental illness include:
+        <ul>
+            <li>Unhappiness and decreased enjoyment of life</li>
+            <li>Relationship difficulties</li>
+            <li>Social isolation</li>
+            <li>Weakened immune system, so your body has a hard time resisting infections</li>
+            <li>Problems with tobacco, alcohol and other drugs</li>
+            <li>Heart disease and other medical conditions</li>
+        </ul>
+    </p>
+    </div>
+    <div id="help">
+         Get support from our counsellors for free because we care for you.
+    </div>
+
+    <div id="main">
+        <script src="mental.js"></script>
+        <h1>TIC TAC TOE</h1>
+   
+        <!-- Game Instructions -->
+        <p id="ins">Game starts by just Tap on 
+            box<br><br>First Player starts as 
+            <b>Player X</b><br>And<br>Second 
+            Player as <b>Player 0</b>
+        </p>
+ 
+  
+   
+   
+        <br><br>
+        <!-- 3*3 grid of Boxes -->
+        <input type="text" id="b1" onclick=
+            "myfunc_3(); myfunc();" readonly>
+   
+        <input type="text" id="b2" onclick=
+            "myfunc_4(); myfunc();" readonly>
+   
+        <input type="text" id="b3" onclick=
+            "myfunc_5(); myfunc();" readonly>
+        <br><br>
+   
+        <input type="text" id="b4" onclick=
+            "myfunc_6(); myfunc();" readonly>
+               
+        <input type="text" id="b5" onclick=
+            "myfunc_7(); myfunc();" readonly>
+   
+        <input type="text" id="b6" onclick=
+            "myfunc_8(); myfunc();" readonly>
+        <br><br>
+   
+        <input type="text" id="b7" onclick=
+            "myfunc_9(); myfunc();" readonly>
+   
+        <input type="text" id="b8" onclick=
+            "myfunc_10();myfunc();" readonly>
+   
+        <input type="text" id="b9" onclick=
+            "myfunc_11();myfunc();" readonly>
+   
+        <!-- Grid end here  -->
+        <br><br><br>
+        <!-- Button to reset game -->
+        <button id="but" onclick="myfunc_2()">
+            RESET
+        </button>
+   
+        <br><br>
+        <!-- Space to show player turn -->
+        <p id="print"></p>
+
+   
+   
+    </div>
+    <div id="myForm">
+        <form action="index.php">
+            <input type="submit" id="text" value="Click here to get a Call from us."/>
+          </form>
+      </div>
+</body>
+</html>

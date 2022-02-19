@@ -1,0 +1,99 @@
+body{
+    
+  font-size: 18px;
+}
+nav{
+    background-color: rgb(126, 211, 236);
+    padding-top: 5%;
+    padding-bottom:5%;
+    color:darkblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: darkblue;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(126, 211, 236);
+    display: block;
+    transition: 0.3s;
+    font-weight: bolder;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #docpic {
+    float: right;
+}
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+#doctlist{
+  text-align: center;
+  list-style:none;
+  text-decoration: none;
+}
+button{
+  color: darkblue;
+  padding: 10px;
+  margin: 10px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: darkblue;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 20%;
+  display: inline;
+  font-size: large;
+  text-decoration:none;
+}
+#Records,#Calendar{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(126, 211, 236);
+  padding: 20px;
+  color:darkblue;
+  text-shadow:2px 2px white;
+}
+#home,#Medicines,#Assistant{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+  padding-top: 50px;
+  margin-bottom: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:darkblue;
+  text-shadow:2px 2px pink;
+}
+hr{
+  border: 10px solid darkblue;
+  border-radius: 3px;
+}
+#STAY{
+  font-weight:bolder;
+  text-shadow:2px 2px pink;
+}

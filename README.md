@@ -8,9 +8,9 @@ To solve this problem, we prepared a website that could help people keep a track
 
 Our websites is broadly divided into 2 sections- Physical and Mental Health.
 
-<img width="960" alt="image" src="<img width="960" alt="image" src="https://user-images.githubusercontent.com/72097687/189199191-c37a019d-ba0a-46fe-8cb2-790c70476df9.png">">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/72097687/189199191-c37a019d-ba0a-46fe-8cb2-790c70476df9.png">">
 
 # Login Page
 
-<img width="960" alt="image" src="<img width="947" alt="image" src="https://user-images.githubusercontent.com/72097687/189199547-10d6b922-f3f4-4754-b142-1a2f49dc1afd.png">
+<img width="947" alt="image" src="https://user-images.githubusercontent.com/72097687/189199547-10d6b922-f3f4-4754-b142-1a2f49dc1afd.png">
 ">">

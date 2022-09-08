@@ -12,5 +12,5 @@ Our websites is broadly divided into 2 sections- Physical and Mental Health.
 
 # Login Page
 
-<img width="960" alt="image" src="<img width="960" alt="image" src="<img width="947" alt="image" src="https://user-images.githubusercontent.com/72097687/189199547-10d6b922-f3f4-4754-b142-1a2f49dc1afd.png">
+<img width="960" alt="image" src="<img width="947" alt="image" src="https://user-images.githubusercontent.com/72097687/189199547-10d6b922-f3f4-4754-b142-1a2f49dc1afd.png">
 ">">
